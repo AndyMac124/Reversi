@@ -4,11 +4,7 @@
 package cosc250.reversi
 
 /**
-  * A place for you to write some boid tests.
-  *
-  * Boids are an immutable class containing functions. That makes them relatively straightforward to test --
-  * except that the values within them are doubles, which are hard to compare exactly. Instead, test if they
-  * are close (i.e. within a certain amount +/- what you're looking for).
+  * Tests
   */
 class ReversiSuite extends munit.FunSuite {
 
