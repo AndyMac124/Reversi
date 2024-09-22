@@ -1,19 +1,3 @@
-## Reversi
-
-[Reversi](https://en.wikipedia.org/wiki/Reversi) is a traditional game played on an 8x8 board.
-
-There are two players, black and white, who take turns placing disks on the board.
-
-The first two moves for each player involve placing a disk in one of the four central squares of the board. For these two moves,
-no captures are made. (We're doing the original 1883 rules.) Programming hint: after these moves, there are four pieces on the board.
-
-For all subsequent moves, a move is valid if it captures at least one piece. (See the examples on the wikipedia page, or try playing it online.)
-Note that captures can be horizontal, vertical, or diagonal, and a move might capture pieces on multiple axes.
-
-If a player has no valid moves, their turn is skipped.
-
-If neither player has a valid move, the game ends and the player with the most pieces on the board wins.
-
 ## Running the code
 
 This repository is set up so that the code can be run either using `scala-cli` or `sbt`
